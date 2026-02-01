@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5
+        - image: 192.168.110.239:5000/nacos/nacos-server:3.0
           name: guestbook-ui
           ports:
             - containerPort: 80
